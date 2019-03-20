@@ -9,7 +9,7 @@ public class Estado {
 	@Id
 	@GeneratedValue
 	private Integer id;
-	private String uf;
+	private String uf; 
 	@Override
 	public int hashCode() {
 		final int prime = 31;

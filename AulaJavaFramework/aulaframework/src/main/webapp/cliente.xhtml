@@ -10,6 +10,9 @@ xmlns:f="http://java.sun.com/jsf/core">
 	
 	Nome: 	<h:inputText value="#{clienteController.cliente.nome}" />
 	E-mail: <h:inputText value="#{clienteController.cliente.email}" />
+	Estado: <h:selectOneMenu value="#{clienteController.cliente.estado}" converter="#{estadoConverter}">
+				<f:selectItems value="#{estadoController.estados}" var="e" itemLabel="#{e.uf}"></f:selectItems>
+		 </h:selectOneMenu>
 			<h:commandButton action="#{clienteController.salvar}" value="Salvar"> 
 				<f:ajax execute="frmCliente" render="frmCliente"></f:ajax>
 			</h:commandButton>
