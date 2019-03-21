@@ -34,7 +34,7 @@ public class TestClienteRepository {
 		@Test
 		public void testSalvar() {
 			
-			Cliente cli = new Cliente("Jão", "Jao@hotmail.com");
+			Cliente cli = new Cliente("Jão");
 			Cliente cliSalvo = clienteRepository.save(cli);
 			Assert.assertNotNull(cliSalvo.getId());
 		}
@@ -42,20 +42,20 @@ public class TestClienteRepository {
 		
 		@Test
 		public void testBuscarPorEmail(){
-			Cliente cli = new Cliente("Jão","jao@hotmail.com");
+			Cliente cli = new Cliente("Jão");
 			entityManager.persist(cli);
-			Cliente cliEncontrado = clienteRepository.buscaPorEmail("jao@hotmail.com");
+		Cliente cliEncontrado = clienteRepository.buscaPorId(1);
 			
 			assertThat(cliEncontrado.getNome()).isEqualTo(cli.getNome());
-			assertThat(cliEncontrado.getEmail()).isEqualTo(cli.getEmail());
+		
 		}
 		
 		@Test
 		public void testBuscarTodos(){
-			Cliente cliJao = new Cliente("Jão","jao@hotmail.com");
+			Cliente cliJao = new Cliente("Jão");
 			entityManager.persist(cliJao);
 			
-			Cliente cliZe = new Cliente("Ze","Ze@hotmail.com");
+			Cliente cliZe = new Cliente("Ze");
 			entityManager.persist(cliZe);
 			
 			List<Cliente> lista = clienteRepository.buscarTodos();

@@ -12,8 +12,8 @@ import br.com.aulaframework.model.Cliente;
 
 @Repository
 public interface ClienteRepository extends JpaRepository<Cliente, Long> {
-	@Query("select cli from Cliente cli where cli.email =:email")
-	public Cliente buscaPorEmail(@Param("email") String email);
+	@Query("select cli from Cliente cli where cli.id =:id")
+	public Cliente buscaPorId(@Param("id") Integer id);
 	
 	@Query("Select cli from Cliente cli")
 	public List<Cliente> buscarTodos();

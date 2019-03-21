@@ -9,8 +9,9 @@ xmlns:f="http://java.sun.com/jsf/core">
 <h:form id="frmCliente">
 	
 	Nome: 	<h:inputText value="#{clienteController.cliente.nome}" />
-	E-mail: <h:inputText value="#{clienteController.cliente.email}" />
+	Contatos: <h:inputText value="#{clienteController.cliente.nome}" />
 	Estado: <h:selectOneMenu value="#{clienteController.cliente.estado}" converter="#{estadoConverter}">
+				<f:selectItem noSelectionOption="true" itemValue="null"  itemLabel=".:Selecione.:" > </f:selectItem>
 				<f:selectItems value="#{estadoController.estados}" var="e" itemLabel="#{e.uf}"></f:selectItems>
 		 </h:selectOneMenu>
 			<h:commandButton action="#{clienteController.salvar}" value="Salvar"> 
@@ -36,7 +37,10 @@ xmlns:f="http://java.sun.com/jsf/core">
 				<f:facet name="header">E-mail</f:facet>
 				#{c.email}
 			</h:column>
-			
+			<h:column>
+				<f:facet name="header">UF</f:facet>
+				#{c.estado.uf}
+			</h:column>
 			
 			
 			<h:column>
