@@ -11,12 +11,16 @@ import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
 
+import org.hibernate.Hibernate;
+import org.hibernate.annotations.Proxy;
+
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Entity
 @Data
 @NoArgsConstructor
+
 public class Cliente {
 	
 	@Id
@@ -27,6 +31,7 @@ public class Cliente {
 	
 	@OneToMany(cascade=CascadeType.ALL, mappedBy="cliente")
 	private List<Contato> contatos = new ArrayList<>();
+	
 			
 	
 	@JoinColumn

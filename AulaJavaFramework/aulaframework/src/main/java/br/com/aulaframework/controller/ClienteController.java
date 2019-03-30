@@ -5,9 +5,11 @@ import java.util.List;
 import javax.annotation.PostConstruct;
 import javax.faces.bean.ViewScoped;
 import javax.inject.Named;
-
+import javax.servlet.http.HttpSession;
 
 import org.springframework.beans.factory.annotation.Autowired;
+
+import com.sun.faces.action.RequestMapping;
 
 import br.com.aulaframework.model.Cliente;
 import br.com.aulaframework.model.Contato;
@@ -74,8 +76,5 @@ public class ClienteController {
 	public void excluirContato(Contato contato) {
 		cliente.getContatos().remove(contato);
 	}
-	
-	
-
- 
+	 
 }
