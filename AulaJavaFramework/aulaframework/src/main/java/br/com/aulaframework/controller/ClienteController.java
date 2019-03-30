@@ -10,7 +10,10 @@ import javax.inject.Named;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import br.com.aulaframework.model.Cliente;
+import br.com.aulaframework.model.Contato;
 import br.com.aulaframework.repository.ClienteRepository;
+import lombok.Getter;
+import lombok.Setter;
 
 @Named
 @ViewScoped
@@ -19,10 +22,13 @@ public class ClienteController {
 	@Autowired
 	private ClienteRepository clienteRepository;
 	
-	private List<Cliente> clientes;
-	
-	private Cliente cliente;
-
+	@Setter @Getter
+	private List<Cliente> clientes;	
+	@Setter @Getter
+	private Cliente cliente = new Cliente() ;	
+	@Setter @Getter
+	private Contato contato = new Contato();	
+	@Setter @Getter
 	private boolean modoEdicao = false;
 	
 	@PostConstruct
@@ -40,13 +46,6 @@ public class ClienteController {
 		modoEdicao=false;
 	}
 	
-	public boolean isModoEdicao() {
-		return modoEdicao;
-	}
-
-	public void setModoEdicao(boolean modoEdicao) {
-		this.modoEdicao = modoEdicao;
-	}
 
 	public void excluir(Cliente cliente) {
 		clienteRepository.delete(cliente);
@@ -63,21 +62,20 @@ public class ClienteController {
 		setCliente(cliente);
 		modoEdicao=true;
 	}
+	
+	public void adicionarContato() {
 		
-	public Cliente getCliente() {
-		return cliente;
+		contato.setCliente(cliente);		
+		cliente.getContatos().add(contato);
+		contato = new Contato();
+		
 	}
-
-	public void setCliente(Cliente cliente) {
-		this.cliente = cliente;
+	
+	public void excluirContato(Contato contato) {
+		cliente.getContatos().remove(contato);
 	}
+	
+	
 
-	public List<Cliente> getClientes() {
-		return clientes;
-	}
-
-	public void setClientes(List<Cliente> clientes) {
-		this.clientes = clientes;
-	}
-
+ 
 }
