@@ -14,7 +14,7 @@ public class ScheduleAtualizacaoAtivacao {
 	@Value("${server.port}")
 	private String port;
 	
-	@Scheduled(fixedRate = 1800000)
+	@Scheduled(fixedRateString = "${schedule.rate}")
 	public void atualizaAtivacao() {
 		final String uri = url.concat(":").concat(port.concat("/shrobo/private/shAtivacao/atualizacao"));
 		System.out.println("INICIOU ATUALIZACAO ...............");

@@ -16,7 +16,7 @@ import br.com.shrobo.service.SHService;
 @RequestScope
 public class SHManager implements SHService {
 	
-	private final SHdll dll = Native.loadLibrary("C:\\wba\\api\\config\\application\\dll\\SHdll.dll", SHdll.class);
+	private final SHdll dll = Native.loadLibrary("C:\\wba\\shrobo\\config\\dll\\SHdll.dll", SHdll.class);
 	private final String secret1 = "gutinho@conseguiu@na@gambi";
 	private final String secret2 = "mortal#da#mesa#hailton#fera";
 	private final SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
