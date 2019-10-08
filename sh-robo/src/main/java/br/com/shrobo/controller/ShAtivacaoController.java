@@ -9,10 +9,8 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.com.shrobo.domain.exception.ShAtivacaoException;
 import br.com.shrobo.dto.OpcionaisDTO;
 import br.com.shrobo.dto.ShAtivacaoDTO;
-import br.com.shrobo.service.SHService;
 import br.com.shrobo.service.ShAtivacaoService;
 import io.swagger.annotations.Api;
 
@@ -22,43 +20,35 @@ public class ShAtivacaoController {
 
 	@Autowired
 	private ShAtivacaoService shAtivacaoService;
-	
-	@Autowired
-	private SHService shService;
 
 	@GetMapping("/private/shAtivacao/all")
 	public ResponseEntity<List<ShAtivacaoDTO>> getAllNames() {
 		List<ShAtivacaoDTO> shAtivacao = new ArrayList<>();
-		try {
-			shAtivacaoService.findAll().forEach(f -> {
-				final ShAtivacaoDTO dto = new ShAtivacaoDTO();
-				List<OpcionaisDTO> listOpcionais = new ArrayList<>();
-				
-				dto.setMaquina(f.getMaquina());
-				dto.setSerial(f.getSerial());
-				dto.setSigCad(f.getSigCad());
-				dto.setDtValidade(f.getDtValidade());
-				
-				f.getOpcionais().forEach(o -> {
-					final OpcionaisDTO oDto = new OpcionaisDTO();
-					oDto.setCodigoModulo(o.getCodigoModulo());
-					oDto.setId(o.getId());
-					listOpcionais.add(oDto);
-				});
-				dto.setOpcionais(listOpcionais);
-				
-				try {
-					String ativacao = shService.getChave(dto.getSerial(), dto.getDtValidade(), f.getOpcionais());
-					dto.setAtivacao(ativacao);
-				} catch (Exception e) {
-					e.printStackTrace();
-				}
-				shAtivacao.add(dto);
+		shAtivacaoService.getListAtivacao().forEach(f -> {
+			final ShAtivacaoDTO dto = new ShAtivacaoDTO();
+			List<OpcionaisDTO> listOpcionais = new ArrayList<>();
+
+			dto.setMaquina(f.getMaquina());
+			dto.setSerial(f.getSerial());
+			dto.setSigCad(f.getSigCad());
+			dto.setDtValidade(f.getDtValidade());
+
+			f.getOpcionais().forEach(o -> {
+				final OpcionaisDTO oDto = new OpcionaisDTO();
+				oDto.setCodigoModulo(o.getCodigoModulo());
+				oDto.setId(o.getId());
+				listOpcionais.add(oDto);
 			});
-		} catch (ShAtivacaoException e) {
-			e.printStackTrace();
-		}
+			dto.setOpcionais(listOpcionais);
+			dto.setAtivacao(f.getAtivacao());
+			shAtivacao.add(dto);
+		});
 		return new ResponseEntity<List<ShAtivacaoDTO>>(shAtivacao, HttpStatus.OK);
+	}
+	
+	@GetMapping("/private/shAtivacao/atualizacao")
+	public ResponseEntity<String> atualiza() {
+		return new ResponseEntity<String>(shAtivacaoService.executaAtualizacaoDeSerial(), HttpStatus.OK);
 	}
 
 }

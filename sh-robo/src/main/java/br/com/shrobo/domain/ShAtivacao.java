@@ -26,12 +26,22 @@ public class ShAtivacao implements Serializable {
 	private String serial;
 	@Column(name = "dt_validade")
 	private Date dtValidade;
+	@Column(name = "ctrl_id")
+	private Long ctrlId;
 
 	@OneToMany(mappedBy = "shAtivacao", cascade = CascadeType.ALL, orphanRemoval = true)
 	private List<Opcionais> opcionais;
 
 	@Transient
 	private String ativacao;
+	
+	public Long getCtrlId() {
+		return ctrlId;
+	}
+
+	public void setCtrlId(Long ctrlId) {
+		this.ctrlId = ctrlId;
+	}
 
 	public Long getMaquina() {
 		return maquina;
@@ -86,6 +96,7 @@ public class ShAtivacao implements Serializable {
 		final int prime = 31;
 		int result = 1;
 		result = prime * result + ((ativacao == null) ? 0 : ativacao.hashCode());
+		result = prime * result + ((ctrlId == null) ? 0 : ctrlId.hashCode());
 		result = prime * result + ((dtValidade == null) ? 0 : dtValidade.hashCode());
 		result = prime * result + ((maquina == null) ? 0 : maquina.hashCode());
 		result = prime * result + ((opcionais == null) ? 0 : opcionais.hashCode());
@@ -107,6 +118,11 @@ public class ShAtivacao implements Serializable {
 			if (other.ativacao != null)
 				return false;
 		} else if (!ativacao.equals(other.ativacao))
+			return false;
+		if (ctrlId == null) {
+			if (other.ctrlId != null)
+				return false;
+		} else if (!ctrlId.equals(other.ctrlId))
 			return false;
 		if (dtValidade == null) {
 			if (other.dtValidade != null)
@@ -139,7 +155,7 @@ public class ShAtivacao implements Serializable {
 	@Override
 	public String toString() {
 		return "ShAtivacao [maquina=" + maquina + ", sigCad=" + sigCad + ", serial=" + serial + ", dtValidade="
-				+ dtValidade + ", opcionais=" + opcionais + ", ativacao=" + ativacao + "]";
+				+ dtValidade + ", ctrlId=" + ctrlId + ", opcionais=" + opcionais + ", ativacao=" + ativacao + "]";
 	}
 
 }
