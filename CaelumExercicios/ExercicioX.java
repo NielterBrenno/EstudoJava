@@ -25,10 +25,10 @@ class ExercicioX{
 		}
 		//Imprima o fatorial de 1 e 10
 		System.out.println("\nImprima o fatorial de 1 e 10");					
-		int fatorial = 10;
-		for(int x = 10;x>1;x--){
-			fatorial = fatorial *(x-1);
-			System.out.println(fatorial);
+		int fatorial = 1;
+		for(int x = 1;x<=10;x++){
+			fatorial = fatorial * x;
+			System.out.println("fatorial de "+x + " : "+fatorial);
 		}
 
 		//Imprima o fatorial de 1 e 40
