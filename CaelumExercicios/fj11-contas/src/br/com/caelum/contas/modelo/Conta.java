@@ -15,7 +15,7 @@ public abstract class Conta {
 	private String agencia;
 	private static int identificador;
 
-	
+
 	public abstract String getTipo();
 
 	public void saca(double valor) {
@@ -38,6 +38,20 @@ public abstract class Conta {
 		dados += 	"\n\t|Saldo:       " + saldo;
 		dados += 	"\n\t|Tipo:        " + getTipo();
 		return dados;
+	}
+
+	public String toString() {
+		return "[titular=" + titular + ", numero=" + numero
+				+ ",agencia=" + agencia +"]";
+	}
+
+	public boolean equals(Object obj) {
+		if (obj == null) {
+			return false;
+		}
+		Conta outraConta = (Conta) obj;
+		return this.numero == outraConta.numero &&
+				this.agencia.equals(outraConta.agencia);
 	}
 
 	public double getSaldo() {
