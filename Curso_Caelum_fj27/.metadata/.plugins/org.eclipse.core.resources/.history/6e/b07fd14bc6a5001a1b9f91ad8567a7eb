@@ -1,0 +1,15 @@
+package br.com.alura.forum.controller.dto.output;
+
+public class TopicBriefOutputDto {
+	
+	private	Long	id;
+	private	String	shortDescription;
+	private long	secondsSinceLastUpdate;
+	private	String	ownerName;
+	private	String	courseName;
+	private	String	subcategoryName;
+	private	String	categoryName;
+	private int	numberOfResponses;
+	private boolean	solved;
+
+}

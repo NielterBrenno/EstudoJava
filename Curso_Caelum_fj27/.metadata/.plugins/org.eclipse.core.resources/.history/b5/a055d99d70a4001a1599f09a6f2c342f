@@ -1,0 +1,21 @@
+
+#spring.datasource.url=jdbc:postgresql://localhost:5432/AulaFramework
+#spring.datasource.username=postgres
+#spring.datasource.password=123456
+
+
+#spring.jpa.hibernate.ddl-auto=update
+#spring.jpa.database-platform=org.hibernate.dialect.PostgreSQLDialect
+#spring.jpa.properties.hibernate.enable_lazy_load_no_trans=true
+
+#	data	source
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.driver
+spring.datasource.url=jdbc:mysql://localhost/fj27_spring?createdatabaseifnotexist=true&usessl=false
+spring.datasource.username=root
+spring.datasource.password=
+			
+#	jpa	properties
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.mysql55dialect
+spring.jpa.properties.hibernate.show_sql=true
+spring.jpa.properties.hibernate.format_sql=true
