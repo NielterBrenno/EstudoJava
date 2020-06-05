@@ -6,8 +6,17 @@
 <fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
 <fullyQualifiedTypeName name="ch.qos.logback.core.util.Duration"/>
 <fullyQualifiedTypeName name="java.time.Duration"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="org.springframework.http.MediaType"/>
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
+<fullyQualifiedTypeName name="org.aspectj.apache.bcel.util.Repository"/>
+<fullyQualifiedTypeName name="org.springframework.data.repository.Repository"/>
+<fullyQualifiedTypeName name="org.springframework.data.jpa.repository.Query"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+<fullyQualifiedTypeName name="br.com.alura.forum.repository.TopicRepository"/>
+<fullyQualifiedTypeName name="javax.persistence.criteria.Path"/>
+<fullyQualifiedTypeName name="org.springframework.data.jpa.domain.Specification"/>
+<fullyQualifiedTypeName name="javax.persistence.criteria.Predicate"/>
 <fullyQualifiedTypeName name="br.com.alura.forum.controller.dto.output.TopicBriefOutputDto"/>
+<fullyQualifiedTypeName name="br.com.alura.forum.controller.dto.input.TopicSearchInputDto"/>
 </qualifiedTypeNameHistroy>
