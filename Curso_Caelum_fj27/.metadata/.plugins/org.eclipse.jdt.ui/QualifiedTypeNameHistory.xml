@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="br.com.alura.forum.model.Category"/>
 <fullyQualifiedTypeName name="br.com.alura.forum.model.User"/>
 <fullyQualifiedTypeName name="org.springframework.web.servlet.config.annotation.WebMvcConfigurer"/>
-<fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
 <fullyQualifiedTypeName name="ch.qos.logback.core.util.Duration"/>
 <fullyQualifiedTypeName name="java.time.Duration"/>
 <fullyQualifiedTypeName name="org.springframework.http.MediaType"/>
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
 <fullyQualifiedTypeName name="org.aspectj.apache.bcel.util.Repository"/>
-<fullyQualifiedTypeName name="org.springframework.data.repository.Repository"/>
 <fullyQualifiedTypeName name="org.springframework.data.jpa.repository.Query"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
 <fullyQualifiedTypeName name="br.com.alura.forum.repository.TopicRepository"/>
 <fullyQualifiedTypeName name="javax.persistence.criteria.Path"/>
@@ -19,4 +15,23 @@
 <fullyQualifiedTypeName name="javax.persistence.criteria.Predicate"/>
 <fullyQualifiedTypeName name="br.com.alura.forum.controller.dto.output.TopicBriefOutputDto"/>
 <fullyQualifiedTypeName name="br.com.alura.forum.controller.dto.input.TopicSearchInputDto"/>
+<fullyQualifiedTypeName name="org.springframework.data.domain.Pageable"/>
+<fullyQualifiedTypeName name="org.springframework.data.domain.Page"/>
+<fullyQualifiedTypeName name="org.springframework.data.web.PageableDefault"/>
+<fullyQualifiedTypeName name="org.springframework.data.domain.Sort"/>
+<fullyQualifiedTypeName name="org.springframework.data.domain.Sort.Direction"/>
+<fullyQualifiedTypeName name="io.swagger.models.Contact"/>
+<fullyQualifiedTypeName name="springfox.documentation.builders.ApiInfoBuilder"/>
+<fullyQualifiedTypeName name="springfox.documentation.service.Contact"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="springfox.documentation.builders.ResponseMessageBuilder"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMethod"/>
+<fullyQualifiedTypeName name="br.com.alura.forum.model.Category"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
+<fullyQualifiedTypeName name="org.springframework.data.repository.Repository"/>
+<fullyQualifiedTypeName name="br.com.alura.forum.controller.dto.output.DashboardOutputDto"/>
+<fullyQualifiedTypeName name="br.com.alura.forum.repository.DashBoardRepository"/>
+<fullyQualifiedTypeName name="java.util.List"/>
 </qualifiedTypeNameHistroy>

@@ -1,0 +1,37 @@
+package br.com.alura.forum.controller.dto.output;
+
+import java.time.Duration;
+import java.time.Instant;
+import java.time.temporal.ChronoUnit;
+import java.util.List;
+
+import org.springframework.data.domain.Page;
+
+import br.com.alura.forum.model.Category;
+import br.com.alura.forum.model.topic.domain.Topic;
+import br.com.alura.forum.model.topic.domain.TopicStatus;
+
+public class DashboardOutputDto {
+	
+	private String categoryName;
+	private	List<Category> subcategories;
+	private Integer allTopics;
+	private Integer lastWeekTopics;
+	private Integer unansweredTopics;
+	
+	
+	public	DashboardOutputDto(DashboardOutputDto dashboard) {
+		this.categoryName =	dashboard.getCategoryName();
+		this.subcategories	=	dashboard.getSubcategories();
+		this.allTopics	=	dashboard.allTopics;
+		this.lastWeekTopics	=	dashboard.lastWeekTopics;
+		this.unansweredTopics	=	dashboard.unansweredTopics;
+	}
+
+	public	static	List<DashboardOutputDto> listFromDashboard(List<DashboardOutputDto> dashboard) {
+		return	dashboard.List(DashboardOutputDto::new);
+	}
+
+	
+
+}
