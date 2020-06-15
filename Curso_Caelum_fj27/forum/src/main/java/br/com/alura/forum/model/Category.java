@@ -83,26 +83,4 @@ public class Category {
 			return false;
 		return true;
 	}
-
-	public List<Category> getSubcategories() {
-		return subcategories;
-	}
-
-	public void setSubcategories(List<Category> subcategories) {
-		this.subcategories = subcategories;
-	}
-
-	public void setId(Long id) {
-		this.id = id;
-	}
-
-	public void setName(String name) {
-		this.name = name;
-	}
-
-	public void setCategory(Category category) {
-		this.category = category;
-	}
-	
-	
 }

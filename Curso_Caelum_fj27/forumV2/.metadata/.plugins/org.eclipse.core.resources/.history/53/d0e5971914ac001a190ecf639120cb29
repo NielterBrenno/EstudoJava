@@ -1,0 +1,36 @@
+package br.com.alura.forum.controller.dto.input;
+
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.Size;
+
+import br.com.alura.forum.model.Answer;
+import br.com.alura.forum.model.Course;
+import br.com.alura.forum.model.User;
+import br.com.alura.forum.model.topic.domain.Topic;
+import br.com.alura.forum.repository.CourseRepository;
+
+/**
+ * @author nielter.cirqueira
+ *
+ */
+public class NewAnswerInputDto {
+	
+	@NotBlank
+	@Size(min =	10)
+	private	String	content;
+	/*
+	 * public Answer build(User owner, CourseRepository courseRepository) { Course
+	 * course = courseRepository.findByName(this.courseName); return new
+	 * Topic(this.shortDescription, this.content, owner, course); }
+	 * 
+	 */
+	
+	public String getContent() {
+		return content;
+	}
+
+	public void setContent(String content) {
+		this.content = content;
+	}
+	
+}

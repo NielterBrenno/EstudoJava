@@ -1,19 +1,21 @@
 package br.com.alura.forum.controller;
 
+import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import br.com.alura.forum.model.User;
+
 @Controller
-public class HomeController	{
+@CrossOrigin
+public class HomeController {
 
-	
-	@RequestMapping("/")
-	@ResponseBody
-	public	String	index() {
-		System.out.println("Log	do	servidor	de	que	foi	feita	uma	requisição	para	'/'");
-		return "Bem	vindo	ao	Forum	da	Alura!";
-	}
-
-
+    @RequestMapping("/")
+    @ResponseBody
+    public String index(@AuthenticationPrincipal User user) {
+        System.out.println("Hello World!");
+        return "Hello World com Spring Boot e MVC, " + user.getName();
+    }
 }
