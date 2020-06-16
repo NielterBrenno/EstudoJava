@@ -19,7 +19,7 @@ public class RegisterUnansweredTopicsTask {
 	@Autowired
 	private	OpenTopicByCategoryRepository	openTopicByCategoryRepository;
 	
-	@Scheduled(cron = "* * 20 * * *")
+	@Scheduled(cron = "* * 20 8 * *")
 	public	void	execute() {
 	
 		List<OpenTopicByCategory>	topics	=	

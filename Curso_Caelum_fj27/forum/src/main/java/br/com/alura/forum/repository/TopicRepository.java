@@ -55,5 +55,6 @@ public interface TopicRepository extends Repository<Topic, Long>, JpaSpecificati
 			"now()	as	instant)	from	Topic	t	"	+
 			"where	t.status	=	'NOT_ANSWERED'	"	+
 			"group	by	t.course.subcategory.category")
+	
 	List<OpenTopicByCategory>	findOpenTopicsByCategory();
 }
