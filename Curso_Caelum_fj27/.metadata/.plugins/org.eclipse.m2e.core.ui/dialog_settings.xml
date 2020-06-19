@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum"/>
 			<item value="C:\sdk\Curso_Caelum\Workspace\forum"/>
 		</list>
 		<list key="projectNameTemplate">

@@ -5,6 +5,7 @@ import java.net.URI;
 import javax.validation.Valid;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
@@ -36,16 +37,22 @@ public class AnswerController {
 	
 	@Autowired
 	private	NewReplyProcessorService	newReplyProcessorService;
+	
+	@CacheEvict(value="topicDetails",	key="#topicId")
 	@PostMapping(consumes	=	MediaType.APPLICATION_JSON_VALUE,	produces	=	MediaType.APPLICATION_JSON_VALUE)
 	public	ResponseEntity<AnswerOutputDto>	answerTopic(@PathVariable	Long	topicId,
 			@Valid	@RequestBody	NewAnswerInputDto	newAnswerDto,
 			@AuthenticationPrincipal	User	loggedUser,
 			UriComponentsBuilder	uriBuilder) {
+		
 		Topic	topic	=	this.topicRepository.findById(topicId);
+		
 		Answer	answer	=	newAnswerDto.build(topic,	loggedUser);
+		
 		this.answerRepository.save(answer);
 		
 		this.newReplyProcessorService.execute(answer);
+		
 		URI	path	=	uriBuilder
                 .path("/api/topics/{topicId}/answers/{answer}")
                 .buildAndExpand(topicId, answer.getId())

@@ -10,4 +10,34 @@
 		<item key="DIALOG_X_ORIGIN" value="632"/>
 		<item key="DIALOG_Y_ORIGIN" value="132"/>
 	</section>
+	<section name="org.eclipse.ui.internal.QuickAccess">
+		<item key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_WIDTH" value="600"/>
+		<item key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_HEIGHT" value="675"/>
+		<item key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_USE_PERSISTED_SIZE" value="true"/>
+		<item key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_USE_PERSISTED_LOCATION" value="false"/>
+		<list key="orderedElements">
+			<item value="org.eclipse.jdt.ui.CompilationUnitEditorforum/src/main/java/br/com/alura/forum/controller/AnswerController.java"/>
+			<item value="org.eclipse.tm.terminal.view.ui.preferences"/>
+			<item value="org.eclipse.tm.terminal.view.ui.TerminalsView"/>
+			<item value="/forum/src/main/java/br/com/alura/forum/controller/AnswerController.java"/>
+		</list>
+		<list key="orderedProviders">
+			<item value="org.eclipse.ui.editors"/>
+			<item value="org.eclipse.ui.preferences"/>
+			<item value="org.eclipse.e4.ui.parts"/>
+			<item value="org.eclipse.ui.ide/org.eclipse.ui.internal.ide.dialogs.OpenResourceQuickAccessComputer"/>
+		</list>
+		<list key="textEntries">
+			<item value="1"/>
+			<item value="1"/>
+			<item value="1"/>
+			<item value="1"/>
+		</list>
+		<list key="textArray">
+			<item value="/*"/>
+			<item value="terminal"/>
+			<item value="termi"/>
+			<item value="answ"/>
+		</list>
+	</section>
 </section>

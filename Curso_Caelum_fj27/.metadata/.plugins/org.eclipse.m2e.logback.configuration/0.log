@@ -1510,3 +1510,826 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: Unrecognise
 2020-06-05 22:00:27,892 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\src\test\resources
 2020-06-05 22:15:12,502 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
 2020-06-08 18:18:06,638 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-06-15 21:07:41,490 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2020-06-15 21:07:47,579 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-15 21:07:47,585 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-06-15 21:07:47,609 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-06-15 21:07:47,612 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-15 21:07:47,612 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\src\test\resources
+2020-06-15 21:07:49,656 [Worker-8: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.com.alura:forum:0.0.1-SNAPSHOT @ D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\pom.xml.
+2020-06-15 21:07:52,018 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-15 21:07:52,024 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-06-15 21:07:52,024 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-06-15 21:07:52,028 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-15 21:07:52,028 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\src\test\resources
+2020-06-15 21:07:55,361 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-15 21:07:55,364 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-06-15 21:07:55,387 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2020-06-15 21:07:55,464 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-15 21:07:55,464 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\src\test\resources
+2020-06-15 21:09:03,085 [Worker-8: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.com.alura:forum:0.0.1-SNAPSHOT @ D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\pom.xml.
+2020-06-15 21:09:04,242 [Worker-8: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /forum/src/main/java
+2020-06-15 21:09:04,243 [Worker-8: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /forum/src/main/resources
+2020-06-15 21:09:04,243 [Worker-8: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /forum/src/main/resources
+2020-06-15 21:09:04,244 [Worker-8: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /forum/src/test/java
+2020-06-15 21:09:04,973 [Worker-8: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 2 sec
+2020-06-15 21:09:05,315 [Worker-3: Auto share git projects] ERROR org.eclipse.jgit.util.SystemReader - Creating XDG_CONFIG_HOME directory Z:\.config failed
+java.nio.file.FileSystemException: Z:\.config: Unable to determine if root directory exists
+	at java.nio.file.Files.createDirectories(Files.java:756) ~[na:1.8.0_201]
+	at org.eclipse.jgit.util.SystemReader$Default.getXDGConfigHome(SystemReader.java:153) [org.eclipse.jgit_5.6.0.201912101111-r.jar:5.6.0.201912101111-r]
+	at org.eclipse.jgit.util.SystemReader$Default.openJGitConfig(SystemReader.java:164) [org.eclipse.jgit_5.6.0.201912101111-r.jar:5.6.0.201912101111-r]
+	at org.eclipse.jgit.util.SystemReader.getJGitConfig(SystemReader.java:381) [org.eclipse.jgit_5.6.0.201912101111-r.jar:5.6.0.201912101111-r]
+	at org.eclipse.jgit.util.SystemReader.getSystemConfig(SystemReader.java:406) [org.eclipse.jgit_5.6.0.201912101111-r.jar:5.6.0.201912101111-r]
+	at org.eclipse.jgit.util.SystemReader.getUserConfig(SystemReader.java:354) [org.eclipse.jgit_5.6.0.201912101111-r.jar:5.6.0.201912101111-r]
+	at org.eclipse.egit.core.Activator$EclipseSystemReader.getUserConfig(Activator.java:1177) [org.eclipse.egit.core_5.6.0.201912101111-r.jar:na]
+	at org.eclipse.jgit.internal.storage.file.FileRepository.<init>(FileRepository.java:191) [org.eclipse.jgit_5.6.0.201912101111-r.jar:5.6.0.201912101111-r]
+	at org.eclipse.egit.core.CachingRepository.<init>(CachingRepository.java:40) [org.eclipse.egit.core_5.6.0.201912101111-r.jar:na]
+	at org.eclipse.egit.core.RepositoryCache$Builder.createRepository(RepositoryCache.java:211) [org.eclipse.egit.core_5.6.0.201912101111-r.jar:na]
+	at org.eclipse.egit.core.RepositoryCache.lookupRepository(RepositoryCache.java:142) [org.eclipse.egit.core_5.6.0.201912101111-r.jar:na]
+	at org.eclipse.egit.core.project.GitProjectData.map(GitProjectData.java:692) [org.eclipse.egit.core_5.6.0.201912101111-r.jar:na]
+	at org.eclipse.egit.core.project.GitProjectData.remapAll(GitProjectData.java:650) [org.eclipse.egit.core_5.6.0.201912101111-r.jar:na]
+	at org.eclipse.egit.core.project.GitProjectData.setRepositoryMappings(GitProjectData.java:464) [org.eclipse.egit.core_5.6.0.201912101111-r.jar:na]
+	at org.eclipse.egit.core.op.ConnectProviderOperation.connectProject(ConnectProviderOperation.java:153) [org.eclipse.egit.core_5.6.0.201912101111-r.jar:na]
+	at org.eclipse.egit.core.op.ConnectProviderOperation.execute(ConnectProviderOperation.java:111) [org.eclipse.egit.core_5.6.0.201912101111-r.jar:na]
+	at org.eclipse.egit.core.internal.job.JobUtil$1.run(JobUtil.java:55) [org.eclipse.egit.core_5.6.0.201912101111-r.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) [org.eclipse.core.jobs_3.10.600.v20191122-2104.jar:na]
+2020-06-15 21:09:07,694 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-15 21:09:07,695 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-06-15 21:09:07,722 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2020-06-15 21:09:07,729 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-15 21:09:07,730 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\src\test\resources
+2020-06-15 21:09:09,117 [ForkJoinPool.commonPool-worker-12] ERROR org.eclipse.jgit.util.FS - Cannot save config file 'FileBasedConfig[Z:\.jgitconfig]'
+java.io.IOException: Creating directories for Z:\ failed
+	at org.eclipse.jgit.util.FileUtils.mkdirs(FileUtils.java:428) ~[org.eclipse.jgit_5.6.0.201912101111-r.jar:5.6.0.201912101111-r]
+	at org.eclipse.jgit.internal.storage.file.LockFile.lock(LockFile.java:163) ~[org.eclipse.jgit_5.6.0.201912101111-r.jar:5.6.0.201912101111-r]
+	at org.eclipse.jgit.storage.file.FileBasedConfig.save(FileBasedConfig.java:252) ~[org.eclipse.jgit_5.6.0.201912101111-r.jar:5.6.0.201912101111-r]
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.saveToConfig(FS.java:586) [org.eclipse.jgit_5.6.0.201912101111-r.jar:5.6.0.201912101111-r]
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.lambda$0(FS.java:367) [org.eclipse.jgit_5.6.0.201912101111-r.jar:5.6.0.201912101111-r]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_201]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1582) ~[na:1.8.0_201]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289) ~[na:1.8.0_201]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056) ~[na:1.8.0_201]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692) ~[na:1.8.0_201]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157) ~[na:1.8.0_201]
+2020-06-15 21:10:12,462 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-15 21:10:12,464 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-06-15 21:10:12,469 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2020-06-15 21:10:12,511 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-15 21:10:12,511 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\src\test\resources
+2020-06-15 21:11:11,654 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-15 21:11:11,654 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-06-15 21:11:11,654 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-06-15 21:11:11,655 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-15 21:11:11,655 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\src\test\resources
+2020-06-15 21:11:47,954 [Worker-5: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2020-06-15 21:11:48,479 [Worker-5: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.com.alura:forum:0.0.1-SNAPSHOT @ D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\pom.xml.
+2020-06-15 21:11:49,194 [Worker-5: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /forum/src/main/java
+2020-06-15 21:11:49,194 [Worker-5: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /forum/src/main/resources
+2020-06-15 21:11:49,194 [Worker-5: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /forum/src/main/resources
+2020-06-15 21:11:49,195 [Worker-5: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /forum/src/test/java
+2020-06-15 21:11:49,786 [Worker-5: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2020-06-15 21:11:50,929 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-15 21:11:50,929 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-06-15 21:11:50,952 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2020-06-15 21:11:50,993 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-15 21:11:50,993 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\src\test\resources
+2020-06-15 21:12:40,669 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-15 21:12:40,671 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-06-15 21:12:40,676 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2020-06-15 21:12:40,710 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-15 21:12:40,711 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\src\test\resources
+2020-06-15 21:15:06,716 [Worker-7: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.com.alura:forum:0.0.1-SNAPSHOT @ D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\pom.xml.
+2020-06-15 21:15:08,499 [Worker-7: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/h2database/h2/1.4.199/h2-1.4.199.pom
+2020-06-15 21:15:08,791 [Worker-7: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/h2database/h2/1.4.199/h2-1.4.199.pom
+2020-06-15 21:15:09,123 [Worker-7: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/h2database/h2/1.4.199/h2-1.4.199.jar
+2020-06-15 21:15:21,013 [Worker-7: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/h2database/h2/1.4.199/h2-1.4.199.jar
+2020-06-15 21:15:21,657 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-15 21:15:21,659 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-06-15 21:15:21,660 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-06-15 21:15:21,661 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-15 21:15:21,661 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\src\test\resources
+2020-06-15 21:15:23,697 [Worker-8: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/h2database/h2/1.4.199/h2-1.4.199-sources.jar
+2020-06-15 21:15:23,719 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-15 21:15:23,720 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-06-15 21:15:23,749 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2020-06-15 21:15:23,785 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-15 21:15:23,785 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\src\test\resources
+2020-06-15 21:15:32,461 [Worker-8: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/h2database/h2/1.4.199/h2-1.4.199-sources.jar
+2020-06-15 21:15:32,668 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.h2database:h2:1.4.199
+2020-06-15 21:15:33,330 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-15 21:15:33,330 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-06-15 21:15:33,330 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-06-15 21:15:33,332 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-15 21:15:33,332 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\src\test\resources
+2020-06-15 21:17:01,795 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-15 21:17:01,797 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-06-15 21:17:01,802 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2020-06-15 21:17:01,807 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-15 21:17:01,807 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\src\test\resources
+2020-06-15 21:17:27,996 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-15 21:17:27,998 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-06-15 21:17:28,004 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2020-06-15 21:17:28,010 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-15 21:17:28,010 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\src\test\resources
+2020-06-15 21:20:32,383 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-15 21:20:32,384 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-06-15 21:20:32,388 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2020-06-15 21:20:32,391 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-15 21:20:32,391 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\src\test\resources
+2020-06-15 21:20:54,449 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-15 21:20:54,450 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-06-15 21:20:54,455 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2020-06-15 21:20:54,459 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-15 21:20:54,459 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\src\test\resources
+2020-06-15 21:22:14,651 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-15 21:22:14,652 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-06-15 21:22:14,652 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-06-15 21:22:14,654 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-15 21:22:14,654 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\src\test\resources
+2020-06-15 21:25:56,681 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-15 21:25:56,681 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-06-15 21:25:56,681 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-06-15 21:25:56,682 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-15 21:25:56,682 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\src\test\resources
+2020-06-15 21:27:10,417 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-15 21:27:10,419 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-06-15 21:27:10,423 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2020-06-15 21:27:10,427 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-15 21:27:10,427 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\src\test\resources
+2020-06-15 21:27:58,423 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-15 21:27:58,425 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-06-15 21:27:58,430 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2020-06-15 21:27:58,435 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-15 21:27:58,435 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\src\test\resources
+2020-06-15 21:29:02,974 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-15 21:29:02,976 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-06-15 21:29:02,980 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2020-06-15 21:29:02,983 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-15 21:29:02,983 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\src\test\resources
+2020-06-15 21:30:23,816 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-15 21:30:23,816 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-06-15 21:30:23,816 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-06-15 21:30:23,818 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-15 21:30:23,818 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\src\test\resources
+2020-06-15 21:30:57,992 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-15 21:30:57,993 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-06-15 21:30:57,997 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2020-06-15 21:30:58,000 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-15 21:30:58,000 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\src\test\resources
+2020-06-15 21:34:01,711 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-15 21:34:01,711 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-06-15 21:34:01,711 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-06-15 21:34:01,712 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-15 21:34:01,712 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\src\test\resources
+2020-06-15 21:34:38,263 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-15 21:34:38,264 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-06-15 21:34:38,268 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2020-06-15 21:34:38,302 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-15 21:34:38,302 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\src\test\resources
+2020-06-15 21:35:12,135 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-15 21:35:12,135 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-06-15 21:35:12,135 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-06-15 21:35:12,136 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-15 21:35:12,136 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\src\test\resources
+2020-06-15 21:35:51,541 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-15 21:35:51,541 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-06-15 21:35:51,541 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-06-15 21:35:51,542 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-15 21:35:51,542 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\src\test\resources
+2020-06-15 21:36:35,714 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-15 21:36:35,715 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-06-15 21:36:35,719 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2020-06-15 21:36:35,724 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-15 21:36:35,724 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\src\test\resources
+2020-06-15 21:40:41,115 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-15 21:40:41,115 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-06-15 21:40:41,115 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-06-15 21:40:41,117 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-15 21:40:41,117 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\src\test\resources
+2020-06-15 21:42:36,490 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-15 21:42:36,490 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-06-15 21:42:36,490 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-06-15 21:42:36,491 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-15 21:42:36,491 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\src\test\resources
+2020-06-15 21:42:47,592 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-15 21:42:47,593 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-06-15 21:42:47,597 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2020-06-15 21:42:47,601 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-15 21:42:47,601 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\src\test\resources
+2020-06-15 21:43:04,190 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-15 21:43:04,190 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-06-15 21:43:04,190 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-06-15 21:43:04,191 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-15 21:43:04,191 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\src\test\resources
+2020-06-15 21:44:26,715 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-15 21:44:26,716 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-06-15 21:44:26,716 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-06-15 21:44:26,717 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-15 21:44:26,718 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\src\test\resources
+2020-06-15 21:44:51,368 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-15 21:44:51,368 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-06-15 21:44:51,368 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-06-15 21:44:51,369 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-15 21:44:51,369 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\src\test\resources
+2020-06-15 21:52:05,491 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-15 21:52:05,491 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-06-15 21:52:05,491 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-06-15 21:52:05,492 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-15 21:52:05,492 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\src\test\resources
+2020-06-15 21:54:35,457 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-15 21:54:35,457 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-06-15 21:54:35,458 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-06-15 21:54:35,460 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-15 21:54:35,460 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\src\test\resources
+2020-06-15 21:54:47,972 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-15 21:54:47,973 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-06-15 21:54:47,973 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-06-15 21:54:47,973 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-15 21:54:47,974 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\src\test\resources
+2020-06-15 21:55:22,344 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-15 21:55:22,345 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-06-15 21:55:22,345 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-06-15 21:55:22,346 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-15 21:55:22,346 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\src\test\resources
+2020-06-15 21:55:40,076 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-15 21:55:40,076 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-06-15 21:55:40,076 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-06-15 21:55:40,077 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-15 21:55:40,077 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\src\test\resources
+2020-06-15 21:55:44,835 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-15 21:55:44,837 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-06-15 21:55:44,841 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2020-06-15 21:55:44,846 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-15 21:55:44,846 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\src\test\resources
+2020-06-15 21:59:32,075 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-15 21:59:32,076 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-06-15 21:59:32,080 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2020-06-15 21:59:32,084 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-15 21:59:32,086 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\src\test\resources
+2020-06-16 17:32:54,922 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 17:32:54,933 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-06-16 17:32:54,933 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-06-16 17:32:54,935 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 17:32:54,935 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\src\test\resources
+2020-06-16 17:35:32,397 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 17:35:32,397 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-06-16 17:35:32,398 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-06-16 17:35:32,399 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 17:35:32,399 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\src\test\resources
+2020-06-16 17:39:06,665 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 17:39:06,665 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-06-16 17:39:06,665 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-06-16 17:39:06,666 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 17:39:06,666 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\src\test\resources
+2020-06-16 17:42:05,356 [Worker-64: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 17:42:05,396 [Worker-64: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-06-16 17:42:05,398 [Worker-64: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-06-16 17:42:05,399 [Worker-64: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 17:42:05,399 [Worker-64: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\src\test\resources
+2020-06-16 17:44:31,745 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 17:44:31,746 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-06-16 17:44:31,746 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-06-16 17:44:31,747 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 17:44:31,747 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\src\test\resources
+2020-06-16 17:44:35,640 [Worker-60: Launching TopicRepositoryTests] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 17:44:35,640 [Worker-60: Launching TopicRepositoryTests] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-06-16 17:44:35,641 [Worker-60: Launching TopicRepositoryTests] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-06-16 17:44:35,642 [Worker-60: Launching TopicRepositoryTests] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 17:44:35,643 [Worker-60: Launching TopicRepositoryTests] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\src\test\resources
+2020-06-16 17:45:57,583 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 17:45:57,583 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-06-16 17:45:57,583 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-06-16 17:45:57,584 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 17:45:57,584 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\src\test\resources
+2020-06-16 17:48:07,989 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 17:48:07,989 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-06-16 17:48:07,989 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-06-16 17:48:07,991 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 17:48:07,991 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\src\test\resources
+2020-06-16 17:49:44,024 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 17:49:44,025 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-06-16 17:49:44,033 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2020-06-16 17:49:44,197 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 17:49:44,197 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\src\test\resources
+2020-06-16 18:39:37,083 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 18:39:37,083 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-06-16 18:39:37,083 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-06-16 18:39:37,084 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 18:39:37,084 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\src\test\resources
+2020-06-16 18:43:48,693 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 18:43:48,693 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-06-16 18:43:48,694 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-06-16 18:43:48,694 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 18:43:48,694 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\src\test\resources
+2020-06-16 18:45:46,794 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 18:45:46,794 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-06-16 18:45:46,794 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-06-16 18:45:46,795 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 18:45:46,795 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\src\test\resources
+2020-06-16 18:46:05,848 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 18:46:05,849 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-06-16 18:46:05,854 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2020-06-16 18:46:05,857 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 18:46:05,857 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\src\test\resources
+2020-06-16 18:47:45,732 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 18:47:45,732 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-06-16 18:47:45,732 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-06-16 18:47:45,733 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 18:47:45,733 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\src\test\resources
+2020-06-16 18:55:03,023 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2020-06-16 18:55:18,441 [Worker-89: Launching Executing install in D__WBA Java_Workspace_EstudoJava_Curso_Caelum_fj27_forum] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum
+2020-06-16 18:55:18,442 [Worker-89: Launching Executing install in D__WBA Java_Workspace_EstudoJava_Curso_Caelum_fj27_forum] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install -Dstyle.color=always
+2020-06-16 18:55:22,775 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 18:55:22,776 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-06-16 18:55:22,780 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2020-06-16 18:55:22,784 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 18:55:22,784 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\src\test\resources
+2020-06-16 18:56:27,391 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 18:56:27,393 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-06-16 18:56:27,400 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2020-06-16 18:56:27,443 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 18:56:27,443 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\src\test\resources
+2020-06-16 18:56:36,602 [Worker-91: Launching Executing install in D__WBA Java_Workspace_EstudoJava_Curso_Caelum_fj27_forum] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum
+2020-06-16 18:56:36,602 [Worker-91: Launching Executing install in D__WBA Java_Workspace_EstudoJava_Curso_Caelum_fj27_forum] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install -Dstyle.color=always
+2020-06-16 18:56:39,882 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 18:56:39,883 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-06-16 18:56:39,888 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2020-06-16 18:56:39,892 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 18:56:39,892 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\src\test\resources
+2020-06-16 18:57:29,471 [Worker-91: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2020-06-16 18:57:30,628 [Worker-91: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.com.alura:forum:0.0.1-SNAPSHOT @ D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\pom.xml.
+2020-06-16 18:57:31,453 [Worker-91: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /forum/src/main/java
+2020-06-16 18:57:31,453 [Worker-91: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /forum/src/main/resources
+2020-06-16 18:57:31,454 [Worker-91: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /forum/src/main/resources
+2020-06-16 18:57:31,454 [Worker-91: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /forum/src/test/java
+2020-06-16 18:57:32,218 [Worker-91: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2020-06-16 18:57:32,978 [Worker-94: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 18:57:32,979 [Worker-94: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-06-16 18:57:33,005 [Worker-94: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2020-06-16 18:57:33,039 [Worker-94: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 18:57:33,039 [Worker-94: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\src\test\resources
+2020-06-16 18:58:31,945 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 18:58:31,947 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-06-16 18:58:31,955 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2020-06-16 18:58:31,991 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 18:58:31,991 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\src\test\resources
+2020-06-16 19:09:50,149 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 19:09:50,149 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-06-16 19:09:50,149 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-06-16 19:09:50,150 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 19:09:50,151 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\src\test\resources
+2020-06-16 20:01:01,339 [Worker-106: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.com.alura:forum:0.0.1-SNAPSHOT @ D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\pom.xml.
+2020-06-16 20:01:03,520 [Worker-106: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-actuator/2.1.6.RELEASE/spring-boot-starter-actuator-2.1.6.RELEASE.pom
+2020-06-16 20:01:03,787 [Worker-106: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-actuator/2.1.6.RELEASE/spring-boot-starter-actuator-2.1.6.RELEASE.pom
+2020-06-16 20:01:04,011 [Worker-106: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-actuator-autoconfigure/2.1.6.RELEASE/spring-boot-actuator-autoconfigure-2.1.6.RELEASE.pom
+2020-06-16 20:01:04,626 [Worker-106: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-actuator-autoconfigure/2.1.6.RELEASE/spring-boot-actuator-autoconfigure-2.1.6.RELEASE.pom
+2020-06-16 20:01:04,813 [Worker-106: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-actuator/2.1.6.RELEASE/spring-boot-actuator-2.1.6.RELEASE.pom
+2020-06-16 20:01:05,109 [Worker-106: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-actuator/2.1.6.RELEASE/spring-boot-actuator-2.1.6.RELEASE.pom
+2020-06-16 20:01:05,265 [Worker-106: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/micrometer/micrometer-core/1.1.5/micrometer-core-1.1.5.pom
+2020-06-16 20:01:05,471 [Worker-106: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/micrometer/micrometer-core/1.1.5/micrometer-core-1.1.5.pom
+2020-06-16 20:01:05,829 [Worker-106: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-actuator/2.1.6.RELEASE/spring-boot-starter-actuator-2.1.6.RELEASE.jar
+2020-06-16 20:01:05,989 [Worker-106: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-actuator/2.1.6.RELEASE/spring-boot-starter-actuator-2.1.6.RELEASE.jar
+2020-06-16 20:01:06,186 [Worker-106: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-actuator-autoconfigure/2.1.6.RELEASE/spring-boot-actuator-autoconfigure-2.1.6.RELEASE.jar
+2020-06-16 20:01:08,023 [Worker-106: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-actuator-autoconfigure/2.1.6.RELEASE/spring-boot-actuator-autoconfigure-2.1.6.RELEASE.jar
+2020-06-16 20:01:08,197 [Worker-106: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-actuator/2.1.6.RELEASE/spring-boot-actuator-2.1.6.RELEASE.jar
+2020-06-16 20:01:11,195 [Worker-106: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-actuator/2.1.6.RELEASE/spring-boot-actuator-2.1.6.RELEASE.jar
+2020-06-16 20:01:11,337 [Worker-106: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/micrometer/micrometer-core/1.1.5/micrometer-core-1.1.5.jar
+2020-06-16 20:01:13,129 [Worker-106: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/micrometer/micrometer-core/1.1.5/micrometer-core-1.1.5.jar
+2020-06-16 20:01:14,476 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 20:01:14,479 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-06-16 20:01:14,479 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-06-16 20:01:14,481 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 20:01:14,481 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\src\test\resources
+2020-06-16 20:01:16,337 [Worker-109: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-actuator/2.1.6.RELEASE/spring-boot-starter-actuator-2.1.6.RELEASE-sources.jar
+2020-06-16 20:01:16,343 [Worker-109: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for org.springframework.boot:spring-boot-starter-actuator:2.1.6.RELEASE
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.boot:spring-boot-starter-actuator:jar:sources:2.1.6.RELEASE
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:805) ~[org.eclipse.m2e.core_1.15.0.20200120-1354.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179) ~[org.eclipse.m2e.core_1.15.0.20200120-1354.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114) ~[org.eclipse.m2e.core_1.15.0.20200120-1354.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101) ~[org.eclipse.m2e.core_1.15.0.20200120-1354.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:773) ~[org.eclipse.m2e.core_1.15.0.20200120-1354.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:750) ~[org.eclipse.m2e.core_1.15.0.20200120-1354.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330) [org.eclipse.m2e.jdt_1.15.0.20200120-1354.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:304) [org.eclipse.m2e.jdt_1.15.0.20200120-1354.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:269) [org.eclipse.m2e.jdt_1.15.0.20200120-1354.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:233) [org.eclipse.m2e.jdt_1.15.0.20200120-1354.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161) [org.eclipse.m2e.jdt_1.15.0.20200120-1354.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179) ~[org.eclipse.m2e.core_1.15.0.20200120-1354.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153) ~[org.eclipse.m2e.core_1.15.0.20200120-1354.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101) ~[org.eclipse.m2e.core_1.15.0.20200120-1354.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1375) ~[org.eclipse.m2e.core_1.15.0.20200120-1354.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161) [org.eclipse.m2e.jdt_1.15.0.20200120-1354.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.600.v20191122-2104.jar:na]
+2020-06-16 20:01:16,675 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 20:01:16,677 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-06-16 20:01:16,702 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2020-06-16 20:01:16,757 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 20:01:16,757 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\src\test\resources
+2020-06-16 20:01:16,995 [Worker-109: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-actuator-autoconfigure/2.1.6.RELEASE/spring-boot-actuator-autoconfigure-2.1.6.RELEASE-sources.jar
+2020-06-16 20:01:19,780 [Worker-109: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-actuator-autoconfigure/2.1.6.RELEASE/spring-boot-actuator-autoconfigure-2.1.6.RELEASE-sources.jar
+2020-06-16 20:01:20,002 [Worker-109: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-actuator-autoconfigure:2.1.6.RELEASE
+2020-06-16 20:01:20,770 [Worker-109: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-actuator/2.1.6.RELEASE/spring-boot-actuator-2.1.6.RELEASE-sources.jar
+2020-06-16 20:01:23,751 [Worker-109: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-actuator/2.1.6.RELEASE/spring-boot-actuator-2.1.6.RELEASE-sources.jar
+2020-06-16 20:01:23,964 [Worker-109: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-actuator:2.1.6.RELEASE
+2020-06-16 20:01:24,714 [Worker-109: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/micrometer/micrometer-core/1.1.5/micrometer-core-1.1.5-sources.jar
+2020-06-16 20:01:26,514 [Worker-109: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/micrometer/micrometer-core/1.1.5/micrometer-core-1.1.5-sources.jar
+2020-06-16 20:01:26,709 [Worker-109: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.micrometer:micrometer-core:1.1.5
+2020-06-16 20:01:27,437 [Worker-109: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hdrhistogram/HdrHistogram/2.1.9/HdrHistogram-2.1.9-sources.jar
+2020-06-16 20:01:28,168 [Worker-109: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hdrhistogram/HdrHistogram/2.1.9/HdrHistogram-2.1.9-sources.jar
+2020-06-16 20:01:28,409 [Worker-109: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hdrhistogram:HdrHistogram:2.1.9
+2020-06-16 20:01:29,145 [Worker-109: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/latencyutils/LatencyUtils/2.0.3/LatencyUtils-2.0.3-sources.jar
+2020-06-16 20:01:29,474 [Worker-109: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/latencyutils/LatencyUtils/2.0.3/LatencyUtils-2.0.3-sources.jar
+2020-06-16 20:01:29,704 [Worker-109: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.latencyutils:LatencyUtils:2.0.3
+2020-06-16 20:01:30,277 [Worker-112: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 20:01:30,277 [Worker-112: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-06-16 20:01:30,277 [Worker-112: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-06-16 20:01:30,279 [Worker-112: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 20:01:30,279 [Worker-112: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\src\test\resources
+2020-06-16 20:01:31,854 [Worker-111: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-actuator/2.1.6.RELEASE/spring-boot-starter-actuator-2.1.6.RELEASE-javadoc.jar
+2020-06-16 20:01:31,857 [Worker-111: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download javadoc for org.springframework.boot:spring-boot-starter-actuator:2.1.6.RELEASE
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.boot:spring-boot-starter-actuator:jar:javadoc:2.1.6.RELEASE
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:805) ~[org.eclipse.m2e.core_1.15.0.20200120-1354.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179) ~[org.eclipse.m2e.core_1.15.0.20200120-1354.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114) ~[org.eclipse.m2e.core_1.15.0.20200120-1354.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101) ~[org.eclipse.m2e.core_1.15.0.20200120-1354.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:773) ~[org.eclipse.m2e.core_1.15.0.20200120-1354.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:750) ~[org.eclipse.m2e.core_1.15.0.20200120-1354.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330) [org.eclipse.m2e.jdt_1.15.0.20200120-1354.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:316) [org.eclipse.m2e.jdt_1.15.0.20200120-1354.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:269) [org.eclipse.m2e.jdt_1.15.0.20200120-1354.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:233) [org.eclipse.m2e.jdt_1.15.0.20200120-1354.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161) [org.eclipse.m2e.jdt_1.15.0.20200120-1354.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179) ~[org.eclipse.m2e.core_1.15.0.20200120-1354.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153) ~[org.eclipse.m2e.core_1.15.0.20200120-1354.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101) ~[org.eclipse.m2e.core_1.15.0.20200120-1354.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1375) ~[org.eclipse.m2e.core_1.15.0.20200120-1354.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161) [org.eclipse.m2e.jdt_1.15.0.20200120-1354.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.600.v20191122-2104.jar:na]
+2020-06-16 20:01:46,023 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 20:01:46,023 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-06-16 20:01:46,025 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-06-16 20:01:46,026 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 20:01:46,026 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\src\test\resources
+2020-06-16 20:01:56,418 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 20:01:56,418 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-06-16 20:01:56,420 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-06-16 20:01:56,421 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 20:01:56,421 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\src\test\resources
+2020-06-16 20:02:05,129 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 20:02:05,129 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-06-16 20:02:05,131 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-06-16 20:02:05,132 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 20:02:05,132 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\src\test\resources
+2020-06-16 20:06:24,600 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 20:06:24,601 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-06-16 20:06:24,604 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-06-16 20:06:24,605 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 20:06:24,605 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\src\test\resources
+2020-06-16 20:06:29,139 [Worker-111: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 20:06:29,140 [Worker-111: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-06-16 20:06:29,141 [Worker-111: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-06-16 20:06:29,143 [Worker-111: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 20:06:29,144 [Worker-111: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\src\test\resources
+2020-06-16 20:06:36,271 [Worker-109: Launching forum - AluraForumApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 20:06:36,271 [Worker-109: Launching forum - AluraForumApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-06-16 20:06:36,272 [Worker-109: Launching forum - AluraForumApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-06-16 20:06:36,273 [Worker-109: Launching forum - AluraForumApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 20:06:36,274 [Worker-109: Launching forum - AluraForumApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\src\test\resources
+2020-06-16 20:07:22,951 [Worker-112: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 20:07:22,951 [Worker-112: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-06-16 20:07:22,953 [Worker-112: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-06-16 20:07:22,954 [Worker-112: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 20:07:22,954 [Worker-112: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\src\test\resources
+2020-06-16 20:09:09,504 [Worker-114: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 20:09:09,505 [Worker-114: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-06-16 20:09:09,510 [Worker-114: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2020-06-16 20:09:09,513 [Worker-114: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 20:09:09,513 [Worker-114: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\src\test\resources
+2020-06-16 20:09:27,596 [Worker-108: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 20:09:27,597 [Worker-108: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-06-16 20:09:27,603 [Worker-108: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2020-06-16 20:09:27,607 [Worker-108: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 20:09:27,607 [Worker-108: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\src\test\resources
+2020-06-16 20:11:42,747 [Worker-109: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 20:11:42,747 [Worker-109: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-06-16 20:11:42,753 [Worker-109: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2020-06-16 20:11:42,756 [Worker-109: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 20:11:42,756 [Worker-109: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\src\test\resources
+2020-06-16 20:11:48,335 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 20:11:48,336 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-06-16 20:11:48,341 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2020-06-16 20:11:48,344 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 20:11:48,344 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\src\test\resources
+2020-06-16 20:12:13,402 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 20:12:13,403 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-06-16 20:12:13,408 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2020-06-16 20:12:13,411 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 20:12:13,411 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\src\test\resources
+2020-06-16 20:12:14,687 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 20:12:14,688 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-06-16 20:12:14,693 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2020-06-16 20:12:14,697 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 20:12:14,697 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\src\test\resources
+2020-06-16 20:12:22,876 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 20:12:22,876 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-06-16 20:12:22,881 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2020-06-16 20:12:22,885 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 20:12:22,885 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\src\test\resources
+2020-06-16 20:12:38,878 [Worker-109: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 20:12:38,879 [Worker-109: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-06-16 20:12:38,885 [Worker-109: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2020-06-16 20:12:38,889 [Worker-109: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 20:12:38,889 [Worker-109: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\src\test\resources
+2020-06-16 20:17:27,792 [Worker-115: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 20:17:27,793 [Worker-115: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-06-16 20:17:27,798 [Worker-115: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2020-06-16 20:17:27,801 [Worker-115: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 20:17:27,801 [Worker-115: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\src\test\resources
+2020-06-16 20:17:43,807 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 20:17:43,808 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-06-16 20:17:43,812 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2020-06-16 20:17:43,816 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 20:17:43,816 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\src\test\resources
+2020-06-16 20:18:45,819 [Worker-108: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 20:18:45,820 [Worker-108: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-06-16 20:18:45,824 [Worker-108: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2020-06-16 20:18:45,827 [Worker-108: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 20:18:45,827 [Worker-108: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\src\test\resources
+2020-06-16 20:21:15,348 [Worker-114: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 20:21:15,349 [Worker-114: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-06-16 20:21:15,354 [Worker-114: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2020-06-16 20:21:15,357 [Worker-114: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 20:21:15,357 [Worker-114: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\src\test\resources
+2020-06-16 20:21:25,386 [Worker-106: Launching forum - AluraForumApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 20:21:25,387 [Worker-106: Launching forum - AluraForumApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-06-16 20:21:25,393 [Worker-106: Launching forum - AluraForumApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2020-06-16 20:21:25,396 [Worker-106: Launching forum - AluraForumApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 20:21:25,396 [Worker-106: Launching forum - AluraForumApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\src\test\resources
+2020-06-16 20:22:28,442 [Worker-112: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 20:22:28,442 [Worker-112: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-06-16 20:22:28,443 [Worker-112: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-06-16 20:22:28,444 [Worker-112: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 20:22:28,444 [Worker-112: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\src\test\resources
+2020-06-16 20:22:49,346 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 20:22:49,347 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-06-16 20:22:49,348 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-06-16 20:22:49,349 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 20:22:49,349 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\src\test\resources
+2020-06-16 20:22:59,210 [Worker-112: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 20:22:59,210 [Worker-112: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-06-16 20:22:59,212 [Worker-112: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-06-16 20:22:59,213 [Worker-112: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 20:22:59,213 [Worker-112: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\src\test\resources
+2020-06-16 21:29:20,360 [Worker-127: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 21:29:20,362 [Worker-127: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-06-16 21:29:20,369 [Worker-127: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2020-06-16 21:29:20,373 [Worker-127: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 21:29:20,373 [Worker-127: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\src\test\resources
+2020-06-16 21:32:07,282 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 21:32:07,283 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-06-16 21:32:07,287 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2020-06-16 21:32:07,291 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 21:32:07,291 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\src\test\resources
+2020-06-16 21:35:17,442 [Worker-118: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 21:35:17,443 [Worker-118: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-06-16 21:35:17,448 [Worker-118: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2020-06-16 21:35:17,451 [Worker-118: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 21:35:17,451 [Worker-118: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\src\test\resources
+2020-06-16 21:37:02,047 [Worker-130: Launching forum - AluraForumApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 21:37:02,048 [Worker-130: Launching forum - AluraForumApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-06-16 21:37:02,054 [Worker-130: Launching forum - AluraForumApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2020-06-16 21:37:02,058 [Worker-130: Launching forum - AluraForumApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 21:37:02,058 [Worker-130: Launching forum - AluraForumApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\src\test\resources
+2020-06-16 21:40:08,401 [Worker-132: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.com.alura:forum:0.0.1-SNAPSHOT @ D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\pom.xml.
+2020-06-16 21:40:09,744 [Worker-132: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-redis/2.1.6.RELEASE/spring-boot-starter-data-redis-2.1.6.RELEASE.pom
+2020-06-16 21:40:09,890 [Worker-132: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-redis/2.1.6.RELEASE/spring-boot-starter-data-redis-2.1.6.RELEASE.pom
+2020-06-16 21:40:10,048 [Worker-132: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-redis/2.1.9.RELEASE/spring-data-redis-2.1.9.RELEASE.pom
+2020-06-16 21:40:10,226 [Worker-132: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-redis/2.1.9.RELEASE/spring-data-redis-2.1.9.RELEASE.pom
+2020-06-16 21:40:10,422 [Worker-132: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-keyvalue/2.1.9.RELEASE/spring-data-keyvalue-2.1.9.RELEASE.pom
+2020-06-16 21:40:10,567 [Worker-132: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-keyvalue/2.1.9.RELEASE/spring-data-keyvalue-2.1.9.RELEASE.pom
+2020-06-16 21:40:10,733 [Worker-132: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-oxm/5.1.8.RELEASE/spring-oxm-5.1.8.RELEASE.pom
+2020-06-16 21:40:10,913 [Worker-132: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-oxm/5.1.8.RELEASE/spring-oxm-5.1.8.RELEASE.pom
+2020-06-16 21:40:11,096 [Worker-132: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/lettuce/lettuce-core/5.1.7.RELEASE/lettuce-core-5.1.7.RELEASE.pom
+2020-06-16 21:40:11,422 [Worker-132: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/lettuce/lettuce-core/5.1.7.RELEASE/lettuce-core-5.1.7.RELEASE.pom
+2020-06-16 21:40:11,613 [Worker-132: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-framework-bom/4.3.20.RELEASE/spring-framework-bom-4.3.20.RELEASE.pom
+2020-06-16 21:40:11,759 [Worker-132: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-framework-bom/4.3.20.RELEASE/spring-framework-bom-4.3.20.RELEASE.pom
+2020-06-16 21:40:11,916 [Worker-132: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-bom/5.2.0/brave-bom-5.2.0.pom
+2020-06-16 21:40:12,095 [Worker-132: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-bom/5.2.0/brave-bom-5.2.0.pom
+2020-06-16 21:40:12,257 [Worker-132: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/reporter2/zipkin-reporter-bom/2.7.7/zipkin-reporter-bom-2.7.7.pom
+2020-06-16 21:40:12,413 [Worker-132: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/reporter2/zipkin-reporter-bom/2.7.7/zipkin-reporter-bom-2.7.7.pom
+2020-06-16 21:40:12,614 [Worker-132: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.4.2/junit-bom-5.4.2.pom
+2020-06-16 21:40:12,769 [Worker-132: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.4.2/junit-bom-5.4.2.pom
+2020-06-16 21:40:12,936 [Worker-132: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-common/4.1.36.Final/netty-common-4.1.36.Final.pom
+2020-06-16 21:40:13,106 [Worker-132: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-common/4.1.36.Final/netty-common-4.1.36.Final.pom
+2020-06-16 21:40:13,265 [Worker-132: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-parent/4.1.36.Final/netty-parent-4.1.36.Final.pom
+2020-06-16 21:40:13,774 [Worker-132: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-parent/4.1.36.Final/netty-parent-4.1.36.Final.pom
+2020-06-16 21:40:13,923 [Worker-132: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-handler/4.1.36.Final/netty-handler-4.1.36.Final.pom
+2020-06-16 21:40:14,088 [Worker-132: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-handler/4.1.36.Final/netty-handler-4.1.36.Final.pom
+2020-06-16 21:40:14,257 [Worker-132: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-buffer/4.1.36.Final/netty-buffer-4.1.36.Final.pom
+2020-06-16 21:40:14,428 [Worker-132: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-buffer/4.1.36.Final/netty-buffer-4.1.36.Final.pom
+2020-06-16 21:40:14,564 [Worker-132: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-transport/4.1.36.Final/netty-transport-4.1.36.Final.pom
+2020-06-16 21:40:14,719 [Worker-132: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-transport/4.1.36.Final/netty-transport-4.1.36.Final.pom
+2020-06-16 21:40:14,885 [Worker-132: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-resolver/4.1.36.Final/netty-resolver-4.1.36.Final.pom
+2020-06-16 21:40:15,057 [Worker-132: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-resolver/4.1.36.Final/netty-resolver-4.1.36.Final.pom
+2020-06-16 21:40:15,227 [Worker-132: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-codec/4.1.36.Final/netty-codec-4.1.36.Final.pom
+2020-06-16 21:40:15,391 [Worker-132: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-codec/4.1.36.Final/netty-codec-4.1.36.Final.pom
+2020-06-16 21:40:15,558 [Worker-132: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/projectreactor/reactor-core/3.2.10.RELEASE/reactor-core-3.2.10.RELEASE.pom
+2020-06-16 21:40:15,702 [Worker-132: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/projectreactor/reactor-core/3.2.10.RELEASE/reactor-core-3.2.10.RELEASE.pom
+2020-06-16 21:40:16,015 [Worker-132: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-redis/2.1.6.RELEASE/spring-boot-starter-data-redis-2.1.6.RELEASE.jar
+2020-06-16 21:40:16,152 [Worker-132: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-redis/2.1.6.RELEASE/spring-boot-starter-data-redis-2.1.6.RELEASE.jar
+2020-06-16 21:40:16,315 [Worker-132: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-redis/2.1.9.RELEASE/spring-data-redis-2.1.9.RELEASE.jar
+2020-06-16 21:40:21,273 [Worker-132: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-redis/2.1.9.RELEASE/spring-data-redis-2.1.9.RELEASE.jar
+2020-06-16 21:40:21,405 [Worker-132: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-keyvalue/2.1.9.RELEASE/spring-data-keyvalue-2.1.9.RELEASE.jar
+2020-06-16 21:40:21,760 [Worker-132: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-keyvalue/2.1.9.RELEASE/spring-data-keyvalue-2.1.9.RELEASE.jar
+2020-06-16 21:40:21,901 [Worker-132: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-oxm/5.1.8.RELEASE/spring-oxm-5.1.8.RELEASE.jar
+2020-06-16 21:40:22,148 [Worker-132: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-oxm/5.1.8.RELEASE/spring-oxm-5.1.8.RELEASE.jar
+2020-06-16 21:40:22,330 [Worker-132: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/lettuce/lettuce-core/5.1.7.RELEASE/lettuce-core-5.1.7.RELEASE.jar
+2020-06-16 21:40:26,211 [Worker-132: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/lettuce/lettuce-core/5.1.7.RELEASE/lettuce-core-5.1.7.RELEASE.jar
+2020-06-16 21:40:26,355 [Worker-132: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-common/4.1.36.Final/netty-common-4.1.36.Final.jar
+2020-06-16 21:40:28,226 [Worker-132: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-common/4.1.36.Final/netty-common-4.1.36.Final.jar
+2020-06-16 21:40:28,379 [Worker-132: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-handler/4.1.36.Final/netty-handler-4.1.36.Final.jar
+2020-06-16 21:40:29,608 [Worker-132: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-handler/4.1.36.Final/netty-handler-4.1.36.Final.jar
+2020-06-16 21:40:29,743 [Worker-132: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-buffer/4.1.36.Final/netty-buffer-4.1.36.Final.jar
+2020-06-16 21:40:30,535 [Worker-132: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-buffer/4.1.36.Final/netty-buffer-4.1.36.Final.jar
+2020-06-16 21:40:30,872 [Worker-132: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-codec/4.1.36.Final/netty-codec-4.1.36.Final.jar
+2020-06-16 21:40:31,963 [Worker-132: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-codec/4.1.36.Final/netty-codec-4.1.36.Final.jar
+2020-06-16 21:40:32,147 [Worker-132: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-transport/4.1.36.Final/netty-transport-4.1.36.Final.jar
+2020-06-16 21:40:33,789 [Worker-132: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-transport/4.1.36.Final/netty-transport-4.1.36.Final.jar
+2020-06-16 21:40:33,956 [Worker-132: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-resolver/4.1.36.Final/netty-resolver-4.1.36.Final.jar
+2020-06-16 21:40:34,135 [Worker-132: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-resolver/4.1.36.Final/netty-resolver-4.1.36.Final.jar
+2020-06-16 21:40:34,296 [Worker-132: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/projectreactor/reactor-core/3.2.10.RELEASE/reactor-core-3.2.10.RELEASE.jar
+2020-06-16 21:40:38,432 [Worker-132: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/projectreactor/reactor-core/3.2.10.RELEASE/reactor-core-3.2.10.RELEASE.jar
+2020-06-16 21:40:39,905 [Worker-132: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.com.alura:forum:0.0.1-SNAPSHOT @ D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\pom.xml.
+2020-06-16 21:40:40,401 [Worker-132: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 21:40:40,403 [Worker-132: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-06-16 21:40:40,403 [Worker-132: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-06-16 21:40:40,405 [Worker-132: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 21:40:40,405 [Worker-132: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\src\test\resources
+2020-06-16 21:40:42,474 [Worker-136: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-redis/2.1.6.RELEASE/spring-boot-starter-data-redis-2.1.6.RELEASE-sources.jar
+2020-06-16 21:40:42,478 [Worker-136: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for org.springframework.boot:spring-boot-starter-data-redis:2.1.6.RELEASE
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.boot:spring-boot-starter-data-redis:jar:sources:2.1.6.RELEASE
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:805) ~[org.eclipse.m2e.core_1.15.0.20200120-1354.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179) ~[org.eclipse.m2e.core_1.15.0.20200120-1354.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114) ~[org.eclipse.m2e.core_1.15.0.20200120-1354.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101) ~[org.eclipse.m2e.core_1.15.0.20200120-1354.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:773) ~[org.eclipse.m2e.core_1.15.0.20200120-1354.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:750) ~[org.eclipse.m2e.core_1.15.0.20200120-1354.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330) [org.eclipse.m2e.jdt_1.15.0.20200120-1354.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:304) [org.eclipse.m2e.jdt_1.15.0.20200120-1354.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:269) [org.eclipse.m2e.jdt_1.15.0.20200120-1354.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:233) [org.eclipse.m2e.jdt_1.15.0.20200120-1354.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161) [org.eclipse.m2e.jdt_1.15.0.20200120-1354.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179) ~[org.eclipse.m2e.core_1.15.0.20200120-1354.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153) ~[org.eclipse.m2e.core_1.15.0.20200120-1354.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101) ~[org.eclipse.m2e.core_1.15.0.20200120-1354.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1375) ~[org.eclipse.m2e.core_1.15.0.20200120-1354.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161) [org.eclipse.m2e.jdt_1.15.0.20200120-1354.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.600.v20191122-2104.jar:na]
+2020-06-16 21:40:42,555 [Worker-132: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 21:40:42,556 [Worker-132: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-06-16 21:40:42,585 [Worker-132: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2020-06-16 21:40:42,619 [Worker-132: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 21:40:42,619 [Worker-132: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\src\test\resources
+2020-06-16 21:40:43,264 [Worker-136: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-redis/2.1.9.RELEASE/spring-data-redis-2.1.9.RELEASE-sources.jar
+2020-06-16 21:40:46,042 [Worker-136: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-redis/2.1.9.RELEASE/spring-data-redis-2.1.9.RELEASE-sources.jar
+2020-06-16 21:40:46,160 [Worker-136: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.data:spring-data-redis:2.1.9.RELEASE
+2020-06-16 21:40:46,851 [Worker-136: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-keyvalue/2.1.9.RELEASE/spring-data-keyvalue-2.1.9.RELEASE-sources.jar
+2020-06-16 21:40:47,379 [Worker-136: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-keyvalue/2.1.9.RELEASE/spring-data-keyvalue-2.1.9.RELEASE-sources.jar
+2020-06-16 21:40:47,481 [Worker-136: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.data:spring-data-keyvalue:2.1.9.RELEASE
+2020-06-16 21:40:48,150 [Worker-136: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-oxm/5.1.8.RELEASE/spring-oxm-5.1.8.RELEASE-sources.jar
+2020-06-16 21:40:48,385 [Worker-118: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 21:40:48,386 [Worker-118: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-06-16 21:40:48,391 [Worker-118: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2020-06-16 21:40:48,394 [Worker-118: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 21:40:48,394 [Worker-118: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\src\test\resources
+2020-06-16 21:40:48,612 [Worker-136: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-oxm/5.1.8.RELEASE/spring-oxm-5.1.8.RELEASE-sources.jar
+2020-06-16 21:40:48,804 [Worker-136: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-oxm:5.1.8.RELEASE
+2020-06-16 21:40:49,463 [Worker-136: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/lettuce/lettuce-core/5.1.7.RELEASE/lettuce-core-5.1.7.RELEASE-sources.jar
+2020-06-16 21:40:52,385 [Worker-136: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/lettuce/lettuce-core/5.1.7.RELEASE/lettuce-core-5.1.7.RELEASE-sources.jar
+2020-06-16 21:40:52,568 [Worker-136: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.lettuce:lettuce-core:5.1.7.RELEASE
+2020-06-16 21:40:53,249 [Worker-136: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-common/4.1.36.Final/netty-common-4.1.36.Final-sources.jar
+2020-06-16 21:40:54,435 [Worker-136: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-common/4.1.36.Final/netty-common-4.1.36.Final-sources.jar
+2020-06-16 21:40:54,614 [Worker-136: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.netty:netty-common:4.1.36.Final
+2020-06-16 21:40:55,246 [Worker-136: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-handler/4.1.36.Final/netty-handler-4.1.36.Final-sources.jar
+2020-06-16 21:40:56,426 [Worker-136: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-handler/4.1.36.Final/netty-handler-4.1.36.Final-sources.jar
+2020-06-16 21:40:56,617 [Worker-136: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.netty:netty-handler:4.1.36.Final
+2020-06-16 21:40:57,270 [Worker-136: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-buffer/4.1.36.Final/netty-buffer-4.1.36.Final-sources.jar
+2020-06-16 21:40:58,012 [Worker-136: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-buffer/4.1.36.Final/netty-buffer-4.1.36.Final-sources.jar
+2020-06-16 21:40:58,205 [Worker-136: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.netty:netty-buffer:4.1.36.Final
+2020-06-16 21:40:58,894 [Worker-136: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-codec/4.1.36.Final/netty-codec-4.1.36.Final-sources.jar
+2020-06-16 21:41:00,081 [Worker-136: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-codec/4.1.36.Final/netty-codec-4.1.36.Final-sources.jar
+2020-06-16 21:41:00,284 [Worker-136: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.netty:netty-codec:4.1.36.Final
+2020-06-16 21:41:00,947 [Worker-136: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-transport/4.1.36.Final/netty-transport-4.1.36.Final-sources.jar
+2020-06-16 21:41:02,183 [Worker-136: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-transport/4.1.36.Final/netty-transport-4.1.36.Final-sources.jar
+2020-06-16 21:41:02,371 [Worker-136: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.netty:netty-transport:4.1.36.Final
+2020-06-16 21:41:03,061 [Worker-136: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-resolver/4.1.36.Final/netty-resolver-4.1.36.Final-sources.jar
+2020-06-16 21:41:03,350 [Worker-136: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-resolver/4.1.36.Final/netty-resolver-4.1.36.Final-sources.jar
+2020-06-16 21:41:03,533 [Worker-136: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.netty:netty-resolver:4.1.36.Final
+2020-06-16 21:41:04,480 [Worker-136: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/projectreactor/reactor-core/3.2.10.RELEASE/reactor-core-3.2.10.RELEASE-sources.jar
+2020-06-16 21:41:10,751 [Worker-136: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/projectreactor/reactor-core/3.2.10.RELEASE/reactor-core-3.2.10.RELEASE-sources.jar
+2020-06-16 21:41:10,856 [Worker-136: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.projectreactor:reactor-core:3.2.10.RELEASE
+2020-06-16 21:41:11,476 [Worker-134: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 21:41:11,476 [Worker-134: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-06-16 21:41:11,476 [Worker-134: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-06-16 21:41:11,477 [Worker-134: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 21:41:11,477 [Worker-134: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\src\test\resources
+2020-06-16 21:41:12,864 [Worker-132: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-redis/2.1.6.RELEASE/spring-boot-starter-data-redis-2.1.6.RELEASE-javadoc.jar
+2020-06-16 21:41:12,867 [Worker-132: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download javadoc for org.springframework.boot:spring-boot-starter-data-redis:2.1.6.RELEASE
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.boot:spring-boot-starter-data-redis:jar:javadoc:2.1.6.RELEASE
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:805) ~[org.eclipse.m2e.core_1.15.0.20200120-1354.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179) ~[org.eclipse.m2e.core_1.15.0.20200120-1354.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114) ~[org.eclipse.m2e.core_1.15.0.20200120-1354.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101) ~[org.eclipse.m2e.core_1.15.0.20200120-1354.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:773) ~[org.eclipse.m2e.core_1.15.0.20200120-1354.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:750) ~[org.eclipse.m2e.core_1.15.0.20200120-1354.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330) [org.eclipse.m2e.jdt_1.15.0.20200120-1354.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:316) [org.eclipse.m2e.jdt_1.15.0.20200120-1354.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:269) [org.eclipse.m2e.jdt_1.15.0.20200120-1354.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:233) [org.eclipse.m2e.jdt_1.15.0.20200120-1354.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161) [org.eclipse.m2e.jdt_1.15.0.20200120-1354.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179) ~[org.eclipse.m2e.core_1.15.0.20200120-1354.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153) ~[org.eclipse.m2e.core_1.15.0.20200120-1354.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101) ~[org.eclipse.m2e.core_1.15.0.20200120-1354.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1375) ~[org.eclipse.m2e.core_1.15.0.20200120-1354.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161) [org.eclipse.m2e.jdt_1.15.0.20200120-1354.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.600.v20191122-2104.jar:na]
+2020-06-16 21:44:03,066 [Worker-133: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 21:44:03,067 [Worker-133: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-06-16 21:44:03,068 [Worker-133: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-06-16 21:44:03,069 [Worker-133: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 21:44:03,069 [Worker-133: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\src\test\resources
+2020-06-16 21:49:37,767 [main] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 21:49:37,768 [main] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-06-16 21:49:37,775 [main] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2020-06-16 21:49:37,778 [main] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 21:49:37,778 [main] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\src\test\resources
+2020-06-16 21:49:46,724 [Worker-136: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 21:49:46,725 [Worker-136: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-06-16 21:49:46,732 [Worker-136: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2020-06-16 21:49:46,735 [Worker-136: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 21:49:46,735 [Worker-136: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\src\test\resources
+2020-06-16 21:50:06,518 [main] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 21:50:06,519 [main] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-06-16 21:50:06,526 [main] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2020-06-16 21:50:06,530 [main] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 21:50:06,531 [main] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\src\test\resources
+2020-06-16 21:50:11,947 [Worker-137: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 21:50:11,948 [Worker-137: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-06-16 21:50:11,952 [Worker-137: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2020-06-16 21:50:11,955 [Worker-137: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 21:50:11,955 [Worker-137: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\src\test\resources
+2020-06-16 21:50:34,938 [main] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 21:50:34,939 [main] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-06-16 21:50:34,944 [main] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2020-06-16 21:50:34,947 [main] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 21:50:34,947 [main] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\src\test\resources
+2020-06-16 21:50:40,088 [Worker-140: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 21:50:40,088 [Worker-140: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-06-16 21:50:40,093 [Worker-140: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 12 resources
+2020-06-16 21:50:40,097 [Worker-140: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-16 21:50:40,097 [Worker-140: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WBA Java\Workspace\EstudoJava\Curso_Caelum_fj27\forum\src\test\resources
+2020-06-18 17:34:52,758 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2020-06-18 17:34:53,797 [Worker-4: Decoration Calculation] ERROR org.eclipse.jgit.util.SystemReader - Creating XDG_CONFIG_HOME directory Z:\.config failed
+java.nio.file.FileSystemException: Z:\.config: Unable to determine if root directory exists
+	at java.nio.file.Files.createDirectories(Files.java:756) ~[na:1.8.0_201]
+	at org.eclipse.jgit.util.SystemReader$Default.getXDGConfigHome(SystemReader.java:153) [org.eclipse.jgit_5.6.0.201912101111-r.jar:5.6.0.201912101111-r]
+	at org.eclipse.jgit.util.SystemReader$Default.openJGitConfig(SystemReader.java:164) [org.eclipse.jgit_5.6.0.201912101111-r.jar:5.6.0.201912101111-r]
+	at org.eclipse.jgit.util.SystemReader.getJGitConfig(SystemReader.java:381) [org.eclipse.jgit_5.6.0.201912101111-r.jar:5.6.0.201912101111-r]
+	at org.eclipse.jgit.util.SystemReader.getSystemConfig(SystemReader.java:406) [org.eclipse.jgit_5.6.0.201912101111-r.jar:5.6.0.201912101111-r]
+	at org.eclipse.jgit.util.SystemReader.getUserConfig(SystemReader.java:354) [org.eclipse.jgit_5.6.0.201912101111-r.jar:5.6.0.201912101111-r]
+	at org.eclipse.egit.core.Activator$EclipseSystemReader.getUserConfig(Activator.java:1177) [org.eclipse.egit.core_5.6.0.201912101111-r.jar:na]
+	at org.eclipse.jgit.internal.storage.file.FileRepository.<init>(FileRepository.java:191) [org.eclipse.jgit_5.6.0.201912101111-r.jar:5.6.0.201912101111-r]
+	at org.eclipse.egit.core.CachingRepository.<init>(CachingRepository.java:40) [org.eclipse.egit.core_5.6.0.201912101111-r.jar:na]
+	at org.eclipse.egit.core.RepositoryCache$Builder.createRepository(RepositoryCache.java:211) [org.eclipse.egit.core_5.6.0.201912101111-r.jar:na]
+	at org.eclipse.egit.core.RepositoryCache.lookupRepository(RepositoryCache.java:142) [org.eclipse.egit.core_5.6.0.201912101111-r.jar:na]
+	at org.eclipse.egit.core.project.GitProjectData.map(GitProjectData.java:692) [org.eclipse.egit.core_5.6.0.201912101111-r.jar:na]
+	at org.eclipse.egit.core.project.GitProjectData.remapAll(GitProjectData.java:650) [org.eclipse.egit.core_5.6.0.201912101111-r.jar:na]
+	at org.eclipse.egit.core.project.GitProjectData.load(GitProjectData.java:633) [org.eclipse.egit.core_5.6.0.201912101111-r.jar:na]
+	at org.eclipse.egit.core.project.GitProjectData.get(GitProjectData.java:219) [org.eclipse.egit.core_5.6.0.201912101111-r.jar:na]
+	at org.eclipse.egit.core.project.RepositoryMapping.getProjectData(RepositoryMapping.java:335) [org.eclipse.egit.core_5.6.0.201912101111-r.jar:na]
+	at org.eclipse.egit.core.project.RepositoryMapping.findMapping(RepositoryMapping.java:356) [org.eclipse.egit.core_5.6.0.201912101111-r.jar:na]
+	at org.eclipse.egit.core.project.RepositoryMapping.getMapping(RepositoryMapping.java:313) [org.eclipse.egit.core_5.6.0.201912101111-r.jar:na]
+	at org.eclipse.egit.ui.internal.decorators.DecoratableWorkingSet.<init>(DecoratableWorkingSet.java:67) [org.eclipse.egit.ui_5.6.0.201912101111-r.jar:na]
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator.decorateResourceMapping(GitLightweightDecorator.java:252) [org.eclipse.egit.ui_5.6.0.201912101111-r.jar:na]
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator.decorate(GitLightweightDecorator.java:199) [org.eclipse.egit.ui_5.6.0.201912101111-r.jar:na]
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:247) [org.eclipse.ui.workbench_3.117.0.v20191126-1131.jar:na]
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105) [org.eclipse.ui.workbench_3.117.0.v20191126-1131.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45) [org.eclipse.equinox.common_3.10.600.v20191004-1420.jar:na]
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360) [org.eclipse.ui.workbench_3.117.0.v20191126-1131.jar:na]
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346) [org.eclipse.ui.workbench_3.117.0.v20191126-1131.jar:na]
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:386) [org.eclipse.ui.workbench_3.117.0.v20191126-1131.jar:na]
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:362) [org.eclipse.ui.workbench_3.117.0.v20191126-1131.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) [org.eclipse.core.jobs_3.10.600.v20191122-2104.jar:na]
+2020-06-18 17:34:58,463 [ForkJoinPool.commonPool-worker-9] ERROR org.eclipse.jgit.util.FS - Cannot save config file 'FileBasedConfig[Z:\.jgitconfig]'
+java.io.IOException: Creating directories for Z:\ failed
+	at org.eclipse.jgit.util.FileUtils.mkdirs(FileUtils.java:428) ~[org.eclipse.jgit_5.6.0.201912101111-r.jar:5.6.0.201912101111-r]
+	at org.eclipse.jgit.internal.storage.file.LockFile.lock(LockFile.java:163) ~[org.eclipse.jgit_5.6.0.201912101111-r.jar:5.6.0.201912101111-r]
+	at org.eclipse.jgit.storage.file.FileBasedConfig.save(FileBasedConfig.java:252) ~[org.eclipse.jgit_5.6.0.201912101111-r.jar:5.6.0.201912101111-r]
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.saveToConfig(FS.java:586) [org.eclipse.jgit_5.6.0.201912101111-r.jar:5.6.0.201912101111-r]
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.lambda$0(FS.java:367) [org.eclipse.jgit_5.6.0.201912101111-r.jar:5.6.0.201912101111-r]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_201]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1582) ~[na:1.8.0_201]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289) ~[na:1.8.0_201]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056) ~[na:1.8.0_201]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692) ~[na:1.8.0_201]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157) ~[na:1.8.0_201]
